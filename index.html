@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colombia 5.0 | Transformación Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BARRA DE PROGRESO DE SCROLL -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="navbar">
+    <div class="nav__logo">Colombia 5.0</div>
+    <button class="nav__menu" id="menuBtn" aria-label="Menú" aria-expanded="false">☰</button>
+    <ul class="nav__links" id="navLinks">
+    <li><a href="#inicio" id="navInicio">Inicio</a></li>
+    <li><a href="#conferencias" id="navConferencias">Conferencias</a></li>
+    <li><a href="#galeria" id="navGaleria">Galería</a></li>
+    <li>
+      <button
+        class="btn-contacto"
+        id="openContacto">
+
+      <span id="txtBtnContacto">
+      Contacto
+      </span>
+
+      </button>
+
+<button
+  class="btn-etica"
+  id="openEtica">
+
+  <span id="txtBtnEtica">
+    Reflexión Ética
+  </span>
+
+</button>
+    </li>
+    <li>
+      <button class="btn-lang" id="langToggle">
+        ES | EN
+      </button>
+</li>
+
+</ul>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__content">
+      <span class="hero__eyebrow reveal-fade" id="heroEvento">
+        EVENTO ACADÉMICO 2026
+      </span>
+      <h1 class="hero__title">
+        <span class="hero__word" style="--i:0">Colombia</span>
+        <span class="hero__word hero__word--accent" style="--i:1">5.0</span>
+      </h1>
+      <div class="hero__title-line"></div>
+      <p class="hero__subtitle reveal-fade" id="heroSub">
+        Transformación Digital · Innovación · Futuro
+      </p>
+      <div class="hero__cta reveal-fade" style="transition-delay:0.7s">
+        <a href="#conferencias" class="btn-primary" id="btnConf">
+          Ver Conferencias
+        </a>
+
+        <a href="#galeria" class="btn-secondary" id="btnGaleria">
+          Galería
+        </a>
+        <a
+          href="#glosario"
+          class="btn-secondary"
+          id="btnGlosario">
+
+        📚 Glosario
+
+        </a>
+    </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span id="txtScroll">
+        Scroll
+      </span>
+      <div class="hero__scroll-line"></div>
+    </div>
+    <div class="hero-particles"></div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="stats-bar__inner">
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="2">0</span>
+        <span class="stat-label" id="txtStat1"> Conferencistas</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="9">0</span>
+        <span class="stat-label" id="txtStat2"> Películas Pixar</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="4">0</span>
+        <span class="stat-label" id="txtStat3"> Redes Sociales</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="1">0</span>
+        <span class="stat-label" id="txtStat4"> Día de Evento</span>
+      </div>
+    </div>
+  </section>
+  <!-- GLOSARIO TECNOLÓGICO -->
+<section class="section" id="glosario">
+
+  <div class="container">
+
+    <p class="section__label reveal" id="txtConceptos">
+      Conceptos
+    </p>
+
+    <h2 class="section__title reveal"id="txtGlosario">
+      Glosario <em>Tecnológico</em>
+    </h2>
+
+    <p class="section__intro reveal">
+      Conceptos fundamentales relacionados con transformación digital,
+      inteligencia artificial, animación digital y redes sociales.Colombia 
+      5.0 es el principal encuentro y estrategia nacional de tecnología, 
+      innovación y transformación digital del país, liderado por el Ministerio TIC.
+    </p>
+
+    <div class="glossary-grid">
+
+      <div class="glossary-card reveal">
+        <h3>Transformación Digital</h3>
+        <h4>Digital Transformation</h4>
+        <p>
+          Integración de tecnologías digitales para mejorar procesos,
+          productos y servicios.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Inteligencia Artificial</h3>
+        <h4>Artificial Intelligence</h4>
+        <p>
+          Sistemas capaces de aprender, analizar datos y tomar decisiones.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Renderizado</h3>
+        <h4>Rendering</h4>
+        <p>
+          Proceso de generar imágenes finales a partir de modelos digitales.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Algoritmo</h3>
+        <h4>Algorithm</h4>
+        <p>
+          Conjunto de pasos utilizados para resolver un problema.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Machine Learning</h3>
+        <h4>Aprendizaje Automático</h4>
+        <p>
+          Rama de la IA que permite aprender a partir de datos.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Big Data</h3>
+        <h4>Big Data</h4>
+        <p>
+          Grandes volúmenes de información analizados digitalmente.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Cloud Computing</h3>
+        <h4>Computación en la Nube</h4>
+        <p>
+          Uso de servidores remotos para almacenar y procesar información.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Branding</h3>
+        <h4>Marca Personal</h4>
+        <p>
+          Estrategias para construir identidad y reputación digital.
+        </p>
+      </div>
+
+      <div class="glossary-card reveal">
+        <h3>Monetización</h3>
+        <h4>Monetization</h4>
+        <p>
+          Conversión de contenido o audiencia en ingresos económicos.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- CONFERENCIAS -->
+  <section class="section" id="conferencias">
+    <div class="container">
+      <p
+        class="section__label reveal"
+        id="txtPrograma">
+          Programa
+      </p>
+      <h2 class="section__title reveal"id="txtConferencias">Conferencias <em>Destacadas</em></h2>
+      <p
+        class="section__intro reveal"
+        id="txtIntroConferencias">
+
+      Dos visiones del mundo digital: animación cinematográfica de talla mundial
+      y estrategias de crecimiento en redes sociales.
+
+      </p>
+
+      <div class="conf-grid">
+
+        <!-- CARD 1: PIXAR -->
+        <a href="pixar.html" class="conf-card reveal">
+          <div class="conf-card__visual conf-card__visual--pixar">
+            <div class="conf-card__glow"></div>
+            <div class="conf-card__badge">10:00 AM</div>
+            <div class="conf-card__icon">🎬</div>
+          </div>
+          <div class="conf-card__body">
+            <span class="conf-card__tag">Pixar Animation Studios</span>
+            <h3 class="conf-card__title">Lights, Camera, Shadows!</h3>
+            <p class="conf-card__speaker">Ian Megibben</p>
+            <p class="conf-card__desc">
+              Director of Photography & Lighting. Iluminación, sombras y narrativa
+              visual en producciones animadas ganadoras del Oscar.
+            </p>
+            <div class="conf-card__date">📅 09 Mayo 2026</div>
+            <span class="conf-card__cta">Ver conferencia →</span>
+          </div>
+        </a>
+
+        <!-- CARD 2: REDES SOCIALES -->
+        <a href="redes.html" class="conf-card reveal" style="transition-delay:0.15s">
+          <div class="conf-card__visual conf-card__visual--redes">
+            <div class="conf-card__glow"></div>
+            <div class="conf-card__badge">2:00 PM</div>
+            <div class="conf-card__icon">📱</div>
+          </div>
+          <div class="conf-card__body">
+            <span class="conf-card__tag">Economía Creativa</span>
+            <h3 class="conf-card__title">Monetización en Redes Sociales</h3>
+            <p class="conf-card__speaker">Juan Sebastián Giraldo</p>
+            <p class="conf-card__desc">
+              CEO Instafest Awards · Presidente CREACODI. Estrategias de
+              marca personal, contenido y generación de ingresos digitales.
+            </p>
+            <div class="conf-card__date">📅 09 Mayo 2026</div>
+            <span class="conf-card__cta">Ver conferencia →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA CON LIGHTBOX -->
+  <section class="section section--dark" id="galeria">
+    <div class="container">
+      <p class="section__label section__label--light reveal" id="txtMomentos">Momentos</p>
+      <h2
+        class="section__title section__title--light reveal"
+        id="txtGaleriaTitulo">
+
+        Galería del <em>Evento</em>
+
+      </h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Las imágenes se llenan desde JS -->
+        <div class="gallery-item reveal" data-src="img/hop1.jpg" data-caption="Pixar · Hoppers — Concept Art">
+          <img src="img/hop1.jpg" alt="Pixar Hoppers">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.1s" data-src="img/hop2.jpg" data-caption="Pixar · Hoppers — Iluminación">
+          <img src="img/hop2.jpg" alt="Pixar Hoppers">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.4s" data-src="img/evento2.jpg" data-caption="Juan Sebastián Giraldo">
+          <img src="img/evento2.jpg" alt="Evento">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.4s" data-src="img/mio.jpg">
+          <img src="img/mio.jpg" alt="Evento">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.3s" data-src="img/evento1.jpg" data-caption="Conferencia Redes Sociales">
+          <img src="img/evento1.jpg" alt="Evento Redes">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.5s" data-src="img/evento3.jpg" data-caption="Instafest Awards">
+          <img src="img/evento3.jpg" alt="Evento">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        <div class="gallery-item reveal" style="--d:.4s" data-src="img/mio1.jpg" >
+          <img src="img/mio1.jpg" alt="Evento">
+          <div class="gallery-item__overlay"><span>🔍 Ver</span></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imagen">
+    <button class="lightbox__close" id="lbClose" aria-label="Cerrar">✕</button>
+    <button class="lightbox__prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <button class="lightbox__next" id="lbNext" aria-label="Siguiente">›</button>
+    <div class="lightbox__inner">
+      <img class="lightbox__img" id="lbImg" src="" alt="">
+      <p class="lightbox__caption" id="lbCaption"></p>
+    </div>
+  </div>
+
+  <!-- CONTACTO / FOOTER -->
+  <section class="section section--contact" id="contacto">
+    <div class="container">
+      <h2 class="section__title section__title--light reveal">Colombia <em>5.0</em></h2>
+      <p class="section__intro reveal" id="txtIntroGlosario">
+        Evento académico de transformación digital · 09 Mayo 2026
+        Somos Colombia 5.0, y llegamos para poner la tecnología al servicio
+        de las personas, cerrando brechas y generando oportunidades en los territorios.
+        El encuentro de los ecosistemas digitales más importante de Colombia y Latinoaméica,
+        organizado por el Ministerio de Tecnologías de la Información y las Comunicaciones.
+        Acceso, soberanía y productividad.
+      </p>
+      <div class="contact-links reveal">
+        <a href="pixar.html" class="btn-outline">🎬 Conferencia Pixar</a>
+        <a href="redes.html" class="btn-outline">📱 Conferencia Redes</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__copy">Colombia 5.0 © 2026 · Transformación Digital</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+<button id="scrollTopBtn" class="scroll-btn">
+ ⬆
+</button>
+
+<button id="scrollBottomBtn" class="scroll-btn scroll-btn-bottom">
+ ⬇
+</button>
+
+<div class="modal-etica" id="modalEtica">
+
+  <div class="modal-etica-content">
+
+    <button id="closeEtica">✕</button>
+
+    <h2 id="txtEtica">
+    Reflexión Ética
+    </h2>
+
+    <p id="txtEticaContenido">
+      Fue un espacio muy creativo, acompañado por personas integras y profesionales,
+      alli aprendimos acerca de varias tecnologias, hoy en dia
+      son fundamentales,nos aporta para el futuro y el crecimiento personal uno de los
+      aportes más grande.
+      La transformación digital debe utilizarse de manera responsable,
+      respetando la privacidad, la transparencia y el bienestar de las personas.
+    </p>
+
+  </div>
+
+</div>
+
+<!-- CONTACTO -->
+<div class="modal-contacto" id="modalContacto">
+
+  <div class="modal-contacto-content">
+
+    <button id="closeContacto">✕</button>
+
+    <h2 id="txtContacto">
+      Información de Contacto
+    </h2>
+    <p id="txtNombre">
+    <strong>Nombre:</strong> 
+    Yira Gómez
+    </p>
+
+    <p id="txtCorreo">
+    <strong>Correo:</strong>
+    gomezhurtadoyiradirley@gmail.com
+    </p>
+
+    <p id="txtTelefono">
+    <strong>Teléfono:</strong>
+    +57 3212570018
+    </p>
+
+    <p id="txtProyecto">
+    <strong>Proyecto:</strong>
+    Colombia 5.0
+    </p>
+
+  </div>
+
+</div>
+
+</body>
+</html>
+
